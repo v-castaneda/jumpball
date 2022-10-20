@@ -19,4 +19,4 @@ function Default(html) {
   )
 }
 
-module.exports = Default
+export default Default
