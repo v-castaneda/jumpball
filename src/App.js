@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import { Icon } from 'leaflet'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-    
-    </div>
-  );
-}
 
-export default App;
+export default function App() {
+  return (
+    <MapContainer></MapContainer>
+  )
+}
