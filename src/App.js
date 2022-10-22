@@ -1,11 +1,13 @@
-import React from 'react';
-import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
-import { Icon } from 'leaflet'
-import './App.css';
+import React from 'react'
+import './App.css'
+import Map from './components/Map'
 
-
-export default function App() {
+function App() {
   return (
-    <MapContainer></MapContainer>
+    <div id='map-container'>
+        <Map/>
+    </div>
   )
 }
+
+export default App
